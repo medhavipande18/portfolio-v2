@@ -117,7 +117,6 @@
             opacity: 0;
         }
 
-        /* Header */
         header {
             position: sticky;
             top: 0;
@@ -181,7 +180,6 @@
             align-items: center;
         }
 
-        /* Hero Section */
         .hero {
             background: var(--bg-white);
             border-bottom: 1px solid var(--border-color);
@@ -318,7 +316,6 @@
             font-weight: 600;
         }
 
-        /* Section Styles */
         section {
             max-width: 1280px;
             margin: 0 auto;
@@ -343,7 +340,6 @@
             max-width: 800px;
         }
 
-        /* Projects Grid */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -435,108 +431,6 @@
             transition: all 0.3s ease;
         }
 
-        .experience-list {
-            display: flex;
-            flex-direction: column;
-            gap: 32px;
-        }
-
-        .experience-item {
-            background: var(--bg-white);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 32px;
-            display: grid;
-            grid-template-columns: 80px 1fr;
-            gap: 24px;
-            align-items: start;
-        }
-
-        .company-logo {
-            width: 80px;
-            height: 80px;
-            background: var(--bg-primary);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 600;
-            color: var(--text-secondary);
-            font-size: 14px;
-            text-align: center;
-            border: 1px solid var(--border-color);
-        }
-
-        .experience-content h3 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .experience-company {
-            font-size: 16px;
-            color: var(--text-secondary);
-            margin-bottom: 4px;
-            font-weight: 500;
-        }
-
-        .experience-date {
-            font-size: 14px;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
-
-        .experience-description {
-            font-size: 15px;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        /* Education */
-        .education-list {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-        }
-
-        .education-item {
-            background: var(--bg-white);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 32px;
-        }
-
-        .education-item h3 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .education-degree {
-            font-size: 16px;
-            color: var(--text-secondary);
-            margin-bottom: 4px;
-            font-weight: 500;
-        }
-
-        .education-date {
-            font-size: 14px;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
-
-        .coursework {
-            font-size: 14px;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .coursework strong {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        /* Timeline Section */
         .timeline {
             position: relative;
             max-width: 1000px;
@@ -622,7 +516,6 @@
         .timeline-item:nth-child(4) .timeline-content { animation-delay: 0.4s; }
         .timeline-item:nth-child(5) .timeline-content { animation-delay: 0.5s; }
         .timeline-item:nth-child(6) .timeline-content { animation-delay: 0.6s; }
-        .timeline-item:nth-child(7) .timeline-content { animation-delay: 0.7s; }
 
         .timeline-content:hover {
             box-shadow: var(--card-shadow-hover);
@@ -692,109 +585,7 @@
             display: block;
             margin-bottom: 6px;
         }
-        .experience-list {
-            display: flex;
-            flex-direction: column;
-            gap: 32px;
-        }
 
-        .experience-item {
-            background: var(--bg-white);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 32px;
-            display: grid;
-            grid-template-columns: 80px 1fr;
-            gap: 24px;
-            align-items: start;
-        }
-
-        .company-logo {
-            width: 80px;
-            height: 80px;
-            background: var(--bg-primary);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 600;
-            color: var(--text-secondary);
-            font-size: 14px;
-            text-align: center;
-            border: 1px solid var(--border-color);
-        }
-
-        .experience-content h3 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .experience-company {
-            font-size: 16px;
-            color: var(--text-secondary);
-            margin-bottom: 4px;
-            font-weight: 500;
-        }
-
-        .experience-date {
-            font-size: 14px;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
-
-        .experience-description {
-            font-size: 15px;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        /* Education */
-        .education-list {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-        }
-
-        .education-item {
-            background: var(--bg-white);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 32px;
-        }
-
-        .education-item h3 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .education-degree {
-            font-size: 16px;
-            color: var(--text-secondary);
-            margin-bottom: 4px;
-            font-weight: 500;
-        }
-
-        .education-date {
-            font-size: 14px;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
-
-        .coursework {
-            font-size: 14px;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .coursework strong {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        /* Technologies */
-        /* Technologies */
         .tech-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -863,7 +654,6 @@
             font-weight: 500;
         }
 
-        /* Links */
         .links-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -904,7 +694,6 @@
             color: var(--text-secondary);
         }
 
-        /* Footer */
         footer {
             background: var(--bg-white);
             border-top: 1px solid var(--border-color);
@@ -917,27 +706,6 @@
             margin: 0 auto;
         }
 
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-            margin-bottom: 16px;
-        }
-
-        .footer-links a {
-            color: var(--accent-blue);
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-        }
-
-        .footer-note {
-            font-size: 14px;
-            color: var(--text-secondary);
-            margin-top: 16px;
-        }
-
-        /* Responsive */
         @media (max-width: 1024px) {
             .projects-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -994,6 +762,7 @@
                 flex-direction: column;
                 padding-bottom: 40px;
                 gap: 16px;
+                margin-bottom: 0;
             }
 
             .timeline-date {
@@ -1017,10 +786,6 @@
                 padding: 24px;
             }
 
-            .experience-item {
-                grid-template-columns: 1fr;
-            }
-
             .tech-grid {
                 grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
                 gap: 16px;
@@ -1031,7 +796,6 @@
             }
         }
 
-        /* Focus states for accessibility */
         a:focus, button:focus {
             outline: 2px solid var(--accent-blue);
             outline-offset: 2px;
@@ -1251,6 +1015,22 @@
                 <div class="timeline-content-wrapper">
                     <div class="timeline-content">
                         <div class="timeline-icon">
+                            <img src="logos/northeastern.jpg" alt="NEU" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="timeline-info">
+                            <div class="timeline-date">Sep 2023 – Dec 2025</div>
+                            <div class="timeline-title">Master of Science in Data Analytics Engineering</div>
+                            <div class="timeline-company">Northeastern University, Boston, MA</div>
+                            <div class="timeline-coursework"><strong>Relevant Coursework:</strong> Data Warehousing & Integration, Machine Learning Operations, Cloud Computing, Engineering Project Management, Data Mining in Engineering, Database Management for Analytics, Computation & Visualization in Analytics, Foundations of Data Analytics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content-wrapper">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
                             <img src="logos/yardi.jpg" alt="YARDI" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="timeline-info">
@@ -1283,22 +1063,6 @@
                 <div class="timeline-content-wrapper">
                     <div class="timeline-content">
                         <div class="timeline-icon">
-                            <img src="logos/lotus.jpg" alt="LOTUS" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                        <div class="timeline-info">
-                            <div class="timeline-date">Jun 2020 – Jun 2021</div>
-                            <div class="timeline-title">Junior Data Engineer</div>
-                            <div class="timeline-company">Lotus Surgical Bandages, Aurangabad, India</div>
-                            <div class="timeline-description">Built ETL pipelines with Python and SQL, automated batch workflows using Airflow, and developed PostgreSQL data warehouse with Tableau dashboards.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content-wrapper">
-                    <div class="timeline-content">
-                        <div class="timeline-icon">
                             <img src="logos/pict.jpg" alt="PICT" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="timeline-info">
@@ -1313,54 +1077,50 @@
         </div>
     </section>
 
-    <section id="education">
-    </section>
-
     <section id="technologies">
         <div class="section-header">
             <h2 class="section-title">Technologies</h2>
             <p class="section-subtitle">Tools and platforms used across the projects shown above.</p>
         </div>
-        </div>
         <div class="tech-grid">
             <div class="tech-item">
-                <div class="tech-icon">🐍</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>
                 <div class="tech-name">Python</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">⚡</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt="PySpark"></div>
                 <div class="tech-name">PySpark</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🔥</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka"></div>
                 <div class="tech-name">Apache Kafka</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🐘</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="Hadoop"></div>
                 <div class="tech-name">Hadoop</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🐬</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div>
                 <div class="tech-name">MySQL</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">💾</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL Server"></div>
                 <div class="tech-name">SQL Server</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🐘</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"></div>
                 <div class="tech-name">PostgreSQL</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🔴</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle"></div>
                 <div class="tech-name">Oracle</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🍃</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div>
                 <div class="tech-name">MongoDB</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">❄️</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/snowflake/snowflake-original.svg" alt="Snowflake"></div>
                 <div class="tech-name">Snowflake</div>
             </div>
             <div class="tech-item">
@@ -1368,23 +1128,23 @@
                 <div class="tech-name">Databricks</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">☁️</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS"></div>
                 <div class="tech-name">AWS</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🔵</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP"></div>
                 <div class="tech-name">GCP</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🌀</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure"></div>
                 <div class="tech-name">Azure</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🐳</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"></div>
                 <div class="tech-name">Docker</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">☸️</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes"></div>
                 <div class="tech-name">Kubernetes</div>
             </div>
             <div class="tech-item">
@@ -1396,7 +1156,7 @@
                 <div class="tech-name">dbt</div>
             </div>
             <div class="tech-item">
-                <div class="tech-icon">🏗️</div>
+                <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform"></div>
                 <div class="tech-name">Terraform</div>
             </div>
             <div class="tech-item">
@@ -1453,7 +1213,6 @@
     </footer>
 
     <script>
-        // Smooth scroll active state
         const sections = document.querySelectorAll('section[id]');
         const navLinks = document.querySelectorAll('.nav-links a');
 
