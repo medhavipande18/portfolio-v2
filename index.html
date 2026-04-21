@@ -811,7 +811,30 @@
             align-items: center;
             gap: 12px;
             transition: all 0.2s;
+            animation: slideUp 0.4s ease-out forwards;
+            opacity: 0;
         }
+
+        .tech-item:nth-child(1) { animation-delay: 0.05s; }
+        .tech-item:nth-child(2) { animation-delay: 0.1s; }
+        .tech-item:nth-child(3) { animation-delay: 0.15s; }
+        .tech-item:nth-child(4) { animation-delay: 0.2s; }
+        .tech-item:nth-child(5) { animation-delay: 0.25s; }
+        .tech-item:nth-child(6) { animation-delay: 0.3s; }
+        .tech-item:nth-child(7) { animation-delay: 0.35s; }
+        .tech-item:nth-child(8) { animation-delay: 0.4s; }
+        .tech-item:nth-child(9) { animation-delay: 0.45s; }
+        .tech-item:nth-child(10) { animation-delay: 0.5s; }
+        .tech-item:nth-child(11) { animation-delay: 0.55s; }
+        .tech-item:nth-child(12) { animation-delay: 0.6s; }
+        .tech-item:nth-child(13) { animation-delay: 0.65s; }
+        .tech-item:nth-child(14) { animation-delay: 0.7s; }
+        .tech-item:nth-child(15) { animation-delay: 0.75s; }
+        .tech-item:nth-child(16) { animation-delay: 0.8s; }
+        .tech-item:nth-child(17) { animation-delay: 0.85s; }
+        .tech-item:nth-child(18) { animation-delay: 0.9s; }
+        .tech-item:nth-child(19) { animation-delay: 0.95s; }
+        .tech-item:nth-child(20) { animation-delay: 1s; }
 
         .tech-item:hover {
             transform: translateY(-2px);
@@ -821,7 +844,16 @@
         .tech-icon {
             width: 48px;
             height: 48px;
-            font-size: 40px;
+            font-size: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tech-icon img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
         }
 
         .tech-name {
@@ -1026,7 +1058,7 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>Hi, I'm Medhavi</h1>
-                <p class="hero-subheading">Data professional with 4+ years of experience building scalable data pipelines, real-time streaming systems, and cloud analytics platforms. Specialized in data engineering, analytics, warehousing, and modeling with expertise in Python, SQL, Spark, Kafka, Snowflake, and Databricks across AWS, Azure, and GCP.</p>
+                <p class="hero-subheading">I am a Data Engineer & Business Intelligence Analyst with 4+ years of experience in building data architectures and cloud based analytical systems that move data from chaos to clarity. I focus on building products for FinTech, Supply Chain and more domains that are impactful and drive business through data-driven decision-making. I specialize in data engineering, analytics, warehousing, and modeling with expertise in Python, SQL, dbt, Spark, Kafka across AWS, Azure, GCP, Snowflake, Databricks, Applied AI/ML.</p>
                 <div class="cta-buttons">
                     <a href="https://github.com/medhavipande18" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
                     <a href="https://www.linkedin.com/in/medhavipande18/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
@@ -1190,10 +1222,10 @@
                             <img src="logos/northeastern.jpg" alt="NEU" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="timeline-info">
-                            <div class="timeline-date">Sep 2023 – Dec 2025</div>
-                            <div class="timeline-title">Master of Science in Data Analytics Engineering</div>
+                            <div class="timeline-date">Dec 2023 – Dec 2025</div>
+                            <div class="timeline-title">Data Engineer – Finance & Operations Data Platforms</div>
                             <div class="timeline-company">Northeastern University, Boston, MA</div>
-                            <div class="timeline-coursework"><strong>Relevant Coursework:</strong> Data Warehousing & Integration, Machine Learning Operations, Cloud Computing, Engineering Project Management, Data Mining in Engineering, Database Management for Analytics, Computation & Visualization in Analytics, Foundations of Data Analytics</div>
+                            <div class="timeline-description">Built Snowflake data warehouse with medallion architecture and dbt-based ELT pipelines, developed real-time anomaly detection using PySpark and Kafka, automated AWS Redshift workflows, and created RAG-based AI bot using Gemini LLM with Power BI dashboards.</div>
                         </div>
                     </div>
                 </div>
@@ -1206,26 +1238,10 @@
                             <img src="logos/dell.jpg" alt="DELL" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="timeline-info">
-                            <div class="timeline-date">Sep 2025 – Present</div>
-                            <div class="timeline-title">Senior Data Engineer</div>
+                            <div class="timeline-date">Jul 2024 – Dec 2024</div>
+                            <div class="timeline-title">Business Intelligence & Data Engineer Co-op – Supply Chain & Finance Analytics</div>
                             <div class="timeline-company">Dell Technologies, Hopkinton, MA</div>
-                            <div class="timeline-description">Built scalable ELT pipelines with dbt and Snowflake, engineered real-time data streaming with Kafka and Spark, and deployed containerized workloads using Docker and Kubernetes with CI/CD automation.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content-wrapper">
-                    <div class="timeline-content">
-                        <div class="timeline-icon">
-                            <img src="logos/dell.jpg" alt="DELL" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                        <div class="timeline-info">
-                            <div class="timeline-date">Jun 2024 – Dec 2024</div>
-                            <div class="timeline-title">BI Data Engineer</div>
-                            <div class="timeline-company">Dell Technologies, Hopkinton, MA</div>
-                            <div class="timeline-description">Developed API-based data ingestion pipelines, built batch processing workflows with Python and SQL, and orchestrated Airflow DAGs for reliable data pipeline execution.</div>
+                            <div class="timeline-description">Built centralized AWS Redshift warehouse with automated Glue ETL pipelines, integrated NoSQL data into S3 and Redshift, developed KPI dashboards in Power BI, and constructed RAG-based AI bot using Gemini LLM for automated query generation.</div>
                         </div>
                     </div>
                 </div>
@@ -1238,10 +1254,26 @@
                             <img src="logos/yardi.jpg" alt="YARDI" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="timeline-info">
-                            <div class="timeline-date">Jul 2021 – Jul 2023</div>
-                            <div class="timeline-title">Senior Data Engineer</div>
+                            <div class="timeline-date">Oct 2022 – Jul 2023</div>
+                            <div class="timeline-title">Product Analyst – Budgeting & Forecasting for Payments, Vendors Solutions</div>
                             <div class="timeline-company">Yardi Systems, Pune, India</div>
-                            <div class="timeline-description">Built ETL/ELT pipelines using Spark and AWS Glue, designed dimensional data models in Redshift and SQL Server, and orchestrated Airflow workflows for reliable data processing.</div>
+                            <div class="timeline-description">Led data infrastructure migration from on-premise SQL Server to AWS Redshift, orchestrated ETL workflows using Airflow, built Tableau dashboards for vendor analytics, and implemented budgeting and forecasting capabilities reducing payment risks.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content-wrapper">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <img src="logos/yardi.jpg" alt="YARDI" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="timeline-info">
+                            <div class="timeline-date">Jul 2021 – Sep 2022</div>
+                            <div class="timeline-title">Software & Data Engineer – Investment, Portfolio, Asset, Leasing, Property Systems</div>
+                            <div class="timeline-company">Yardi Systems, Pune, India</div>
+                            <div class="timeline-description">Engineered SQL Server database objects and data models for investment and property systems, built structured data storage reducing query runtime from 10 minutes to 2 minutes, and developed SQL reports for asset management modules.</div>
                         </div>
                     </div>
                 </div>
@@ -1366,10 +1398,6 @@
             <div class="tech-item">
                 <div class="tech-icon">🏗️</div>
                 <div class="tech-name">Terraform</div>
-            </div>
-            <div class="tech-item">
-                <div class="tech-icon">✅</div>
-                <div class="tech-name">Great Expectations</div>
             </div>
             <div class="tech-item">
                 <div class="tech-icon">📊</div>
